@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'young serif','serif';
+}
+.container{
+    padding: 50px;
+}
+.section-one{
+    background-color: black;
+    color:  rgb(189, 151, 189);
+    padding: 20px;
+}
+.section-one__contact{
+    background-color: rgb(186, 18, 186);
+    color: rgb(238, 226, 226);
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.section-one__name{
+    font-size: 50px;
+    color: rgb(172, 28, 172);
+}
+.section-one__role{
+    color: rgb(184, 172, 172);
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+    margin-top: 10px;
+}
+.section-five{
+    background-color: black;
+    color: rgb(188, 87, 188)
+}
+.section-five__title a{
+    color: cyan;
+}
+.section-three li,.section-four li{
+    list-style: none;
+}
+.section-three{
+    background-color: rgb(114, 26, 196);
+    color: white;
+    display: inline-block;
+    width: 250px;
+    height: 360px;
+    border-radius: 12px;
+    padding: 5px;
+    text-align: center;
+   vertical-align: top;
+}
+.section-four{
+    background-color: black;
+    color: rgb(194, 158, 199);
+    display: inline-block;
+    width: 250px;
+    height: 25opx;
+    border-radius: 12px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+.contact-form__input,.contact-form__email,.contact-form__textArea,.contact-form__submit{
+    margin-top: 10px;
+}
+.contact-form__input,.contact-form__email{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 3px;
+}
+.contact-form__textArea{
+    padding: 10px;
+    border: none;
+    border: solid black 0.5px;
+}
+.contact-form__submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  background-color: rgb(72, 113, 72);
+  color: cyan;
+  border-radius: 15px;
+}
